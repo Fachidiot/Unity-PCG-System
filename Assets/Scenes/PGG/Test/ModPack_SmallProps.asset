@@ -1,0 +1,1192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8982997794093315836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9bb48e6362ba4c9c028367d99c3ea, type: 3}
+  m_Name: SR_CheckCollisionInCell-[Vases](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  StopOnTagged: 
+  CheckMode: 0
+  OffsetColliderOrigin: {x: 0, y: 0, z: 0}
+  Direct: 1
+  CollisionBoxSize: 0.35
+  AllMeshesBounds: 0
+  CheckAlsoNeightbourCells: 0
+  CheckNeightboursDistance: 1
+  NonUniformScale: {x: 1, y: 1, z: 1}
+  ApplyPrefabScale: 1
+  Debug: 1
+--- !u!114 &-8529519151162564450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Floor Decal
+  CheckMode: 3
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: 0, y: 0, z: 0}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 1, y: 1, z: 1}
+  RandomOffsets: {x: 0.4, y: 0, z: 0.4}
+  RandomLocalRotation: {x: 0, y: 0, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 0
+  TransformLikeChild: 0
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 1
+  _DrawAdditionals: 0
+--- !u!114 &-8506728068774075820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226bc5f4badaab3438244b84b7cee058, type: 3}
+  m_Name: SR_Rotate-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetRotationFromTagged: 
+  CheckMode: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  RandomRotation: {x: 0, y: 0, z: 0}
+  MaxDegreesSteps: {x: 1, y: 1, z: 1}
+  LocalRotation: 0
+  OverrideRotation: 1
+--- !u!114 &-8183127473154177267
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671fd9c659a53a04eb310656f11c9125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TemporaryContainer: {fileID: 0}
+  Enabled: 1
+  ModTag: 
+  DrawMeshAndBox: 0
+  Combine: 0
+  RunEmittersIfContains: 0
+  DrawSetupFor: 0
+  OStamp: {fileID: 0}
+  DrawObjectStamps: 1
+  OMultiStamp: {fileID: 0}
+  PrefabsList: []
+  DrawMultiObjectStamps: 1
+  Spawners: []
+  SubSpawners: []
+  VariantOf: {fileID: 0}
+  _editor_drawStamp: 1
+  _editor_drawSpawners: 1
+  _editor_drawGlobalRules: 0
+  _editor_drawModPackRules: 0
+  _editor_shareSelected: 0
+  ParentPreset: {fileID: 0}
+  ParentPack: {fileID: 11400000}
+--- !u!114 &-7064489663834071186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e4d5aac49ca0345b5c3ac36491d897, type: 3}
+  m_Name: SR_WorldOffset-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  OverrideOffset: 1
+  Randomize: 1
+  GetOffsetFromTagged: 
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  RandomWorldOffset: {x: 0.4, y: 0, z: 0.4}
+  RandomRange: {x: 0, y: 1}
+--- !u!114 &-5063773725000454617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094c68a3bf2d9a349851f593cd6a24eb, type: 3}
+  m_Name: SR_CellDistance-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  OffsetCellMode: 0
+  OffsetCell: {x: 0, y: 0, z: 0}
+  DistanceMustBe: 1
+  IgnoreSelf: 1
+  DistanceToTagged: Vase
+  CheckMode: 3
+  Distance: 2
+  MeasureIn: 1
+  DistanceMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &-3933754431653347187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Vases](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 0, y: 0, z: 0}
+  DirectionalOffset: {x: 0, y: 0, z: 0.25}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &-3467299210928130190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3401e8bda3cc91343b11bed2506f2b74, type: 3}
+  m_Name: SR_IfCellContainsTag-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 1
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  Tag: BigProp,SmallProp
+  CheckMode: 0
+  UseRotationsCheck: 0
+  OnlyWithSameDirection: 0
+  CompareOffsetsAngle: 181
+  checkSetup:
+    UseRotor: 1
+    Rotor: 0
+    UseCondition: 1
+    Condition: 0
+    ExtraString: 
+    ExtraValue: 0
+    ToCheck:
+    - {x: 0, y: 0, z: 0}
+    EditorDisplayColor: {r: 0.4, g: 0.4, b: 1, a: 0.95}
+--- !u!114 &-3446041838447244862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc77d951f142764987a7f4ca1cf8f61, type: 3}
+  m_Name: SR_SpawningPropability-[Pots](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  Propability: 0.2
+  PropabilityMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &-2602389916546614322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0acc9caea68f8c4b8c90c5e659b5f87, type: 3}
+  m_Name: SR_Scale-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  ScaleMultiplier: {x: 0.8, y: 0.8, z: 0.8}
+  ScaleMulVariable:
+    name: 
+    requiredType: 5
+    Tooltip: 
+  RandomizeScale: {x: 0, y: 0, z: 0}
+--- !u!114 &-2452526416934250628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094c68a3bf2d9a349851f593cd6a24eb, type: 3}
+  m_Name: SR_CellDistance-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  OffsetCellMode: 0
+  OffsetCell: {x: 0, y: 0, z: 0}
+  DistanceMustBe: 1
+  IgnoreSelf: 1
+  DistanceToTagged: Plant
+  CheckMode: 3
+  Distance: 1
+  MeasureIn: 1
+  DistanceMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &-1828344053697786506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226bc5f4badaab3438244b84b7cee058, type: 3}
+  m_Name: SR_Rotate-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetRotationFromTagged: 
+  CheckMode: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  RandomRotation: {x: 0, y: 0, z: 0}
+  MaxDegreesSteps: {x: 1, y: 0, z: 1}
+  LocalRotation: 0
+  OverrideRotation: 1
+--- !u!114 &-1781435130419027781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9bb48e6362ba4c9c028367d99c3ea, type: 3}
+  m_Name: SR_CheckCollisionInCell-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  StopOnTagged: 
+  CheckMode: 0
+  OffsetColliderOrigin: {x: 0, y: 0, z: 0}
+  Direct: 1
+  CollisionBoxSize: 0.9
+  AllMeshesBounds: 0
+  CheckAlsoNeightbourCells: 0
+  CheckNeightboursDistance: 1
+  NonUniformScale: {x: 1, y: 1, z: 1}
+  ApplyPrefabScale: 1
+  Debug: 0
+--- !u!114 &-1764178489430372878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Pots](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Wall,Ext,Window
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: -2.5, y: 0, z: 0.8}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 1, y: 1, z: 1}
+  RandomOffsets: {x: 0.4, y: 0, z: 0.05}
+  RandomLocalRotation: {x: 0, y: 360, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0.4, y: 0, z: 0.05}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 0
+  TransformLikeChild: 0
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 1
+  _DrawAdditionals: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f132315e3189e59479a1674dc7e52576, type: 3}
+  m_Name: ModPack_SmallProps
+  m_EditorClassIdentifier: 
+  FieldModificators:
+  - {fileID: 6683927277960729600}
+  - {fileID: 3744752855952029090}
+  ParentPreset: {fileID: 0}
+  DisableWholePackage: 0
+  SeedMode: 0
+  CustomSeed: 0
+  ModPackType: 0
+  TagForAllSpawners: 
+  CombineSpawns: 0
+  Variables: []
+  CallOnAllMod: {fileID: -8183127473154177267}
+  CallOnAllSpawners:
+    Enabled: 0
+    Name: 
+    SpawnerTag: 
+    StampPrefabID: 0
+    Parent: {fileID: 0}
+    Rules: []
+    Mode: 0
+    CellCheckMode: 0
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 0
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 0
+    UseGlobalRules: 0
+    UseParentPackageRules: 0
+    _wasEnablingGlobalRules: 0
+    ScaleAccess: 0
+    DisplayPreviewGUI: 0
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 0
+  _EditorDisplayCallOnAll: 0
+--- !u!114 &234622325069786876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc77d951f142764987a7f4ca1cf8f61, type: 3}
+  m_Name: SR_SpawningPropability-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  Propability: 0.4
+  PropabilityMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &593699352923925067
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094c68a3bf2d9a349851f593cd6a24eb, type: 3}
+  m_Name: SR_CellDistance-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 0
+  AllConditionsMet: 1
+  OffsetCellMode: 0
+  OffsetCell: {x: 0, y: 0, z: 0}
+  DistanceMustBe: 1
+  IgnoreSelf: 1
+  DistanceToTagged: Gem
+  CheckMode: 3
+  Distance: 3
+  MeasureIn: 1
+  DistanceMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &1596920352132478583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Wall,Ext,Window
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: -2.5, y: 0, z: 0.8}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 2, y: 2, z: 2}
+  RandomOffsets: {x: 0, y: 0, z: 0}
+  RandomLocalRotation: {x: 0, y: 0, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0.4, y: 0, z: 0.05}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 0
+  TransformLikeChild: 0
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 0
+  _DrawAdditionals: 1
+--- !u!114 &1789885760724563456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc77d951f142764987a7f4ca1cf8f61, type: 3}
+  m_Name: SR_SpawningPropability-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  Propability: 0.7
+  PropabilityMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
+--- !u!114 &3744752855952029090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671fd9c659a53a04eb310656f11c9125, type: 3}
+  m_Name: Plants
+  m_EditorClassIdentifier: 
+  TemporaryContainer: {fileID: 0}
+  Enabled: 1
+  ModTag: SmallProps
+  DrawMeshAndBox: 0
+  Combine: 0
+  RunEmittersIfContains: 0
+  DrawSetupFor: 0
+  OStamp: {fileID: 0}
+  DrawObjectStamps: 1
+  OMultiStamp: {fileID: 0}
+  PrefabsList:
+  - Prefab: {fileID: 156300, guid: 04fb0adabe575c0429826d73f7db3c13, type: 3}
+    MainCollider: {fileID: 64564098457055536, guid: 04fb0adabe575c0429826d73f7db3c13,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: eb8da2c50ff1021408ea5367eb8d3ff0, type: 3}
+    _refCol: {fileID: 64564098457055536, guid: 04fb0adabe575c0429826d73f7db3c13, type: 3}
+  - Prefab: {fileID: 102790, guid: 86a753c1fed37d54bbb4a774766985a5, type: 3}
+    MainCollider: {fileID: 64453766391632938, guid: 86a753c1fed37d54bbb4a774766985a5,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 4e470cdd95f291348bf4b937997e4059, type: 3}
+    _refCol: {fileID: 64453766391632938, guid: 86a753c1fed37d54bbb4a774766985a5, type: 3}
+  - Prefab: {fileID: 131856, guid: f58bdefe414a9a744ab284e383341fea, type: 3}
+    MainCollider: {fileID: 64460189020533112, guid: f58bdefe414a9a744ab284e383341fea,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 4c74bcd67ddd4b747a6276006bff4c76, type: 3}
+    _refCol: {fileID: 64460189020533112, guid: f58bdefe414a9a744ab284e383341fea, type: 3}
+  - Prefab: {fileID: 132666, guid: ba39ae34c46b0ac46a3e8c1de0fc4d49, type: 3}
+    MainCollider: {fileID: 64116407049372026, guid: ba39ae34c46b0ac46a3e8c1de0fc4d49,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: debc8692784dbee4d801342c6039a0cd, type: 3}
+    _refCol: {fileID: 64116407049372026, guid: ba39ae34c46b0ac46a3e8c1de0fc4d49, type: 3}
+  - Prefab: {fileID: 149668, guid: f5406e7b838fe7a4680767d1567e70c6, type: 3}
+    MainCollider: {fileID: 64707820795273778, guid: f5406e7b838fe7a4680767d1567e70c6,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 84196a5049e8ae942809dc5c63464b9a, type: 3}
+    _refCol: {fileID: 64707820795273778, guid: f5406e7b838fe7a4680767d1567e70c6, type: 3}
+  - Prefab: {fileID: 165780, guid: a7d0bab3996f4c44299aaa2169c9bcae, type: 3}
+    MainCollider: {fileID: 64087588486616290, guid: a7d0bab3996f4c44299aaa2169c9bcae,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: d80f3830f110d524bab9594140615fd0, type: 3}
+    _refCol: {fileID: 64087588486616290, guid: a7d0bab3996f4c44299aaa2169c9bcae, type: 3}
+  - Prefab: {fileID: 192026, guid: 16d7d3227049b944fb34c0d7bd878ee9, type: 3}
+    MainCollider: {fileID: 64917705059815276, guid: 16d7d3227049b944fb34c0d7bd878ee9,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 0009069052d553c40befa83ad3c9081b, type: 3}
+    _refCol: {fileID: 64917705059815276, guid: 16d7d3227049b944fb34c0d7bd878ee9, type: 3}
+  - Prefab: {fileID: 158038, guid: b9cff604e7a459c4581b58993fc28f1d, type: 3}
+    MainCollider: {fileID: 64140215374831790, guid: b9cff604e7a459c4581b58993fc28f1d,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 2bdcbac0dc50d84489547314bc2f100b, type: 3}
+    _refCol: {fileID: 64140215374831790, guid: b9cff604e7a459c4581b58993fc28f1d, type: 3}
+  - Prefab: {fileID: 136120, guid: ffc6869ab4137a74d89484a41f685f9d, type: 3}
+    MainCollider: {fileID: 64369075416295100, guid: ffc6869ab4137a74d89484a41f685f9d,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: ec23a8eec85628c49afcefcf7e91069c, type: 3}
+    _refCol: {fileID: 64369075416295100, guid: ffc6869ab4137a74d89484a41f685f9d, type: 3}
+  - Prefab: {fileID: 130514, guid: 3bb5571f612e6d14d82b7a56913e82af, type: 3}
+    MainCollider: {fileID: 64740319024949318, guid: 3bb5571f612e6d14d82b7a56913e82af,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: f217860e068631145a7e659742abf7da, type: 3}
+    _refCol: {fileID: 64740319024949318, guid: 3bb5571f612e6d14d82b7a56913e82af, type: 3}
+  - Prefab: {fileID: 138052, guid: 7060ec5f9f6d83b4ebcd4956b3abdf63, type: 3}
+    MainCollider: {fileID: 64657446150173850, guid: 7060ec5f9f6d83b4ebcd4956b3abdf63,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 2cd02b66b5027d3439724a3be5acdc40, type: 3}
+    _refCol: {fileID: 64657446150173850, guid: 7060ec5f9f6d83b4ebcd4956b3abdf63, type: 3}
+  - Prefab: {fileID: 190188, guid: 87874848711c372419e6cf6ca05d9ea1, type: 3}
+    MainCollider: {fileID: 64721083181856220, guid: 87874848711c372419e6cf6ca05d9ea1,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: e02f4a5ca9ccd734c8a30c5575edafc1, type: 3}
+    _refCol: {fileID: 64721083181856220, guid: 87874848711c372419e6cf6ca05d9ea1, type: 3}
+  - Prefab: {fileID: 149278, guid: cfed6864439a806439810e6a55908101, type: 3}
+    MainCollider: {fileID: 64551560451160574, guid: cfed6864439a806439810e6a55908101,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 9fe3563b526814144a68172330adc29d, type: 3}
+    _refCol: {fileID: 64551560451160574, guid: cfed6864439a806439810e6a55908101, type: 3}
+  - Prefab: {fileID: 120426, guid: dcf56c462b61a4c43b82009dc5a23df2, type: 3}
+    MainCollider: {fileID: 64595564910120746, guid: dcf56c462b61a4c43b82009dc5a23df2,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 1ba9387980a3ea94788b6402546d5efa, type: 3}
+    _refCol: {fileID: 64595564910120746, guid: dcf56c462b61a4c43b82009dc5a23df2, type: 3}
+  - Prefab: {fileID: 147340, guid: ff8e23c9e979e9d4b8760b6c3e81a87a, type: 3}
+    MainCollider: {fileID: 64674550457017794, guid: ff8e23c9e979e9d4b8760b6c3e81a87a,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 2a2ec24812c31c247b96f441a76c8797, type: 3}
+    _refCol: {fileID: 64674550457017794, guid: ff8e23c9e979e9d4b8760b6c3e81a87a, type: 3}
+  - Prefab: {fileID: 145484, guid: a3a688bad45e60446bf326f3e998e1da, type: 3}
+    MainCollider: {fileID: 0}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 6d7bcebe78eeff74daaa56ffe40b7b83, type: 3}
+    _refCol: {fileID: 0}
+  - Prefab: {fileID: 168894, guid: 3b03db48e79bbb4458dc957b685dadcd, type: 3}
+    MainCollider: {fileID: 0}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 6569cf30a0856d54da437fcba1ddd221, type: 3}
+    _refCol: {fileID: 0}
+  - Prefab: {fileID: 198180, guid: 7f3d4ff296dccb147aeb894ae74fb062, type: 3}
+    MainCollider: {fileID: 0}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 7bd69d5b6182c85489899da80509fe61, type: 3}
+    _refCol: {fileID: 0}
+  DrawMultiObjectStamps: 1
+  Spawners:
+  - Enabled: 1
+    Name: Plant
+    SpawnerTag: 
+    StampPrefabID: 3
+    Parent: {fileID: 3744752855952029090}
+    Rules:
+    - {fileID: 5300788689629445863}
+    - {fileID: 3773953218131718417}
+    - {fileID: 6812273784924381046}
+    - {fileID: -2452526416934250628}
+    - {fileID: 234622325069786876}
+    Mode: 0
+    CellCheckMode: 4
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 1
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 1
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  - Enabled: 1
+    Name: Grass
+    SpawnerTag: 
+    StampPrefabID: 229376
+    Parent: {fileID: 3744752855952029090}
+    Rules:
+    - {fileID: -8529519151162564450}
+    - {fileID: -8506728068774075820}
+    Mode: 0
+    CellCheckMode: 0
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 1
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 1
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  - Enabled: 1
+    Name: Mushroom
+    SpawnerTag: 
+    StampPrefabID: 2044
+    Parent: {fileID: 3744752855952029090}
+    Rules:
+    - {fileID: -1764178489430372878}
+    - {fileID: -3933754431653347187}
+    - {fileID: -8982997794093315836}
+    - {fileID: 8377559876195028868}
+    - {fileID: -3446041838447244862}
+    Mode: 0
+    CellCheckMode: 4
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 1
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 1
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  - Enabled: 0
+    Name: Gem
+    SpawnerTag: 
+    StampPrefabID: 30720
+    Parent: {fileID: 3744752855952029090}
+    Rules:
+    - {fileID: -1828344053697786506}
+    - {fileID: -7064489663834071186}
+    - {fileID: -2602389916546614322}
+    - {fileID: -3467299210928130190}
+    - {fileID: 593699352923925067}
+    Mode: 0
+    CellCheckMode: 4
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 1
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 1
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  SubSpawners: []
+  VariantOf: {fileID: 0}
+  _editor_drawStamp: 1
+  _editor_drawSpawners: 1
+  _editor_drawGlobalRules: 0
+  _editor_drawModPackRules: 0
+  _editor_shareSelected: 0
+  ParentPreset: {fileID: 11400000, guid: b75e3183d2147c847ba5917f5b210218, type: 2}
+  ParentPack: {fileID: 11400000}
+--- !u!114 &3773953218131718417
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e1eaa379db1743a31893a3b87cc58, type: 3}
+  m_Name: SR_BoundedOffset-[Vases]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  WorldOffset: {x: 0, y: 0, z: 0}
+  DirectionalOffset: {x: 0, y: 0, z: 0.25}
+  DirectFrom: 
+  CheckMode: 0
+--- !u!114 &4202216606050862151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8e00781a162cc47a8f53fc5301f70f, type: 3}
+  m_Name: SR_OffsetCenter-[Plants]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  OnlyOn: {fileID: 0}
+  Override: 0
+  MultiplyAxis: {x: 1, y: 0, z: 1}
+--- !u!114 &5300788689629445863
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9327e64f60ac33a4fa5e7efebb9176fb, type: 3}
+  m_Name: SR_GetCoords-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 1
+  AllConditionsMet: 1
+  GetFromTagged: Wall,Ext,Window
+  CheckMode: 0
+  WorldOffset: {x: 0, y: 0, z: 0}
+  OffsetMode: 0
+  DirectionalOffset: {x: -2.5, y: 0, z: 0.8}
+  StackOffset: 0
+  RotationEulerOffset: {x: 0, y: 0, z: 0}
+  GetScale: 0
+  ScaleMultiplier: {x: 2, y: 2, z: 2}
+  RandomOffsets: {x: 0, y: 0, z: 0}
+  RandomLocalRotation: {x: 0, y: 360, z: 0}
+  RandomScale: {x: 0, y: 0, z: 0}
+  PivotOffset: {x: 0.4, y: 0, z: 0.05}
+  MultiplyGetted: {x: 1, y: 1, z: 1}
+  DontSpawnIfNoTagged: 1
+  RemoveTagged: 0
+  TransformLikeChild: 0
+  GetRandomIfMulti: 0
+  RunOnRepetition: 0
+  HelperMode: 0
+  _DrawOffsets: 1
+  _DrawRandomization: 1
+  _DrawAdditionals: 1
+--- !u!114 &6574015038768209070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9bb48e6362ba4c9c028367d99c3ea, type: 3}
+  m_Name: SR_CheckCollisionInCell-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  StopOnTagged: 
+  CheckMode: 0
+  OffsetColliderOrigin: {x: 0, y: 0, z: 0}
+  Direct: 1
+  CollisionBoxSize: 0.9
+  AllMeshesBounds: 0
+  CheckAlsoNeightbourCells: 0
+  CheckNeightboursDistance: 1
+  NonUniformScale: {x: 1, y: 1, z: 1}
+  ApplyPrefabScale: 1
+  Debug: 0
+--- !u!114 &6683927277960729600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671fd9c659a53a04eb310656f11c9125, type: 3}
+  m_Name: Vases
+  m_EditorClassIdentifier: 
+  TemporaryContainer: {fileID: 0}
+  Enabled: 1
+  ModTag: SmallProps
+  DrawMeshAndBox: 0
+  Combine: 0
+  RunEmittersIfContains: 0
+  DrawSetupFor: 0
+  OStamp: {fileID: 0}
+  DrawObjectStamps: 1
+  OMultiStamp: {fileID: 0}
+  PrefabsList:
+  - Prefab: {fileID: 126132, guid: 9a02c2175769e3445836efb454dd5ca8, type: 3}
+    MainCollider: {fileID: 64042549174643564, guid: 9a02c2175769e3445836efb454dd5ca8,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 523eb24e1f7a99e47a7c9195c49d50ee, type: 3}
+    _refCol: {fileID: 64042549174643564, guid: 9a02c2175769e3445836efb454dd5ca8, type: 3}
+  - Prefab: {fileID: 150698, guid: b024094a7a82a15488ff3693e5c8568e, type: 3}
+    MainCollider: {fileID: 64146900221523064, guid: b024094a7a82a15488ff3693e5c8568e,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 6e6ecd815f3c0d04eb40a7cd87af7278, type: 3}
+    _refCol: {fileID: 64146900221523064, guid: b024094a7a82a15488ff3693e5c8568e, type: 3}
+  - Prefab: {fileID: 158532, guid: 5f453323eb1cb374b98c94ab5004a413, type: 3}
+    MainCollider: {fileID: 64253919333690072, guid: 5f453323eb1cb374b98c94ab5004a413,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 75fa2378250dbe4459e576d99f9bbc79, type: 3}
+    _refCol: {fileID: 64253919333690072, guid: 5f453323eb1cb374b98c94ab5004a413, type: 3}
+  - Prefab: {fileID: 113466, guid: 28c6a09d0f7dd13488875bb56d3d0fb3, type: 3}
+    MainCollider: {fileID: 64994117920317416, guid: 28c6a09d0f7dd13488875bb56d3d0fb3,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 40c0fde0e15db214386e65dae5decbeb, type: 3}
+    _refCol: {fileID: 64994117920317416, guid: 28c6a09d0f7dd13488875bb56d3d0fb3, type: 3}
+  - Prefab: {fileID: 157312, guid: 7e58502dd20128c489f6d5c8603fdb93, type: 3}
+    MainCollider: {fileID: 64019628826964446, guid: 7e58502dd20128c489f6d5c8603fdb93,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 334ea82598ae9ec4da21d1a24a6895a1, type: 3}
+    _refCol: {fileID: 64019628826964446, guid: 7e58502dd20128c489f6d5c8603fdb93, type: 3}
+  - Prefab: {fileID: 132366, guid: 71cbb2fd7033f3f41a689bcea02fd16c, type: 3}
+    MainCollider: {fileID: 64161916830945704, guid: 71cbb2fd7033f3f41a689bcea02fd16c,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 0943aeb7f4ee9d747addc2bc0a70d3b6, type: 3}
+    _refCol: {fileID: 64161916830945704, guid: 71cbb2fd7033f3f41a689bcea02fd16c, type: 3}
+  - Prefab: {fileID: 160402, guid: a4fb40fd0313a7b4892bc1ab977cc60b, type: 3}
+    MainCollider: {fileID: 64520827591046296, guid: a4fb40fd0313a7b4892bc1ab977cc60b,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 131166d591321b543b2c53f934e351dd, type: 3}
+    _refCol: {fileID: 64520827591046296, guid: a4fb40fd0313a7b4892bc1ab977cc60b, type: 3}
+  - Prefab: {fileID: 184880, guid: 4d049df82560916448d7cc76aea168e2, type: 3}
+    MainCollider: {fileID: 64695888183696504, guid: 4d049df82560916448d7cc76aea168e2,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 6badf0a94f85edf4db8bb23db67fa24a, type: 3}
+    _refCol: {fileID: 64695888183696504, guid: 4d049df82560916448d7cc76aea168e2, type: 3}
+  - Prefab: {fileID: 158580, guid: 005dbe8d7290dbb4e9f8df4c17db9324, type: 3}
+    MainCollider: {fileID: 64997111068267468, guid: 005dbe8d7290dbb4e9f8df4c17db9324,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 69a6beb88cd8e6848bc0dfa4a61c741e, type: 3}
+    _refCol: {fileID: 64997111068267468, guid: 005dbe8d7290dbb4e9f8df4c17db9324, type: 3}
+  - Prefab: {fileID: 195242, guid: c34daa6d7ae26f243b4ceaf341d6ae9b, type: 3}
+    MainCollider: {fileID: 64816462221624374, guid: c34daa6d7ae26f243b4ceaf341d6ae9b,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 27b941f6dbf76c24a9c4e24cedcc9f99, type: 3}
+    _refCol: {fileID: 64816462221624374, guid: c34daa6d7ae26f243b4ceaf341d6ae9b, type: 3}
+  - Prefab: {fileID: 152502, guid: 6d25f3b3d5ab1b243b60794d51a93b36, type: 3}
+    MainCollider: {fileID: 64650399110630098, guid: 6d25f3b3d5ab1b243b60794d51a93b36,
+      type: 3}
+    subID: 0
+    _refMesh: {fileID: 4300000, guid: 8742ab4da7572584c94d5bb198e6797e, type: 3}
+    _refCol: {fileID: 64650399110630098, guid: 6d25f3b3d5ab1b243b60794d51a93b36, type: 3}
+  DrawMultiObjectStamps: 1
+  Spawners:
+  - Enabled: 1
+    Name: Vase
+    SpawnerTag: 
+    StampPrefabID: -1
+    Parent: {fileID: 6683927277960729600}
+    Rules:
+    - {fileID: 1596920352132478583}
+    - {fileID: -5063773725000454617}
+    - {fileID: 1789885760724563456}
+    - {fileID: 6574015038768209070}
+    Mode: 0
+    CellCheckMode: 4
+    _Editor_SpawnerAdvancedOptionsFoldout: 0
+    OnScalledGrid: 0
+    Repeat: 1
+    DontInheritRotations: 0
+    SwitchSpawnedToStatic: 0
+    MultipleToSpawn: 1
+    UseGlobalRules: 1
+    UseParentPackageRules: 1
+    _wasEnablingGlobalRules: 1
+    ScaleAccess: 1
+    DisplayPreviewGUI: 1
+    IsSubSpawner: 0
+    _EditorDisplaySpawnerHeader: 1
+  SubSpawners: []
+  VariantOf: {fileID: 0}
+  _editor_drawStamp: 1
+  _editor_drawSpawners: 1
+  _editor_drawGlobalRules: 0
+  _editor_drawModPackRules: 0
+  _editor_shareSelected: 0
+  ParentPreset: {fileID: 11400000, guid: b75e3183d2147c847ba5917f5b210218, type: 2}
+  ParentPack: {fileID: 11400000}
+--- !u!114 &6812273784924381046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9bb48e6362ba4c9c028367d99c3ea, type: 3}
+  m_Name: SR_CheckCollisionInCell-[Vases]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  StopOnTagged: 
+  CheckMode: 0
+  OffsetColliderOrigin: {x: 0, y: 0.2, z: 0}
+  Direct: 1
+  CollisionBoxSize: 0.7
+  AllMeshesBounds: 0
+  CheckAlsoNeightbourCells: 0
+  CheckNeightboursDistance: 1
+  NonUniformScale: {x: 1, y: 1, z: 1}
+  ApplyPrefabScale: 1
+  Debug: 1
+--- !u!114 &7828261948275079239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb9bb48e6362ba4c9c028367d99c3ea, type: 3}
+  m_Name: SR_CheckCollisionInCell-[Pots]
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 1
+  CellAllow: 1
+  AllConditionsMet: 1
+  StopOnTagged: 
+  CheckMode: 0
+  OffsetColliderOrigin: {x: 0, y: 0.5, z: 0}
+  Direct: 1
+  CollisionBoxSize: 1.5
+  AllMeshesBounds: 0
+  CheckAlsoNeightbourCells: 0
+  CheckNeightboursDistance: 1
+  NonUniformScale: {x: 1, y: 1, z: 1}
+  ApplyPrefabScale: 1
+  Debug: 0
+--- !u!114 &8377559876195028868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094c68a3bf2d9a349851f593cd6a24eb, type: 3}
+  m_Name: SR_CellDistance-[Pots](Clone)
+  m_EditorClassIdentifier: 
+  Logic: 0
+  Negate: 0
+  Global: 0
+  Enabled: 1
+  Ignore: 0
+  _editor_drawRule: 0
+  CellAllow: 0
+  AllConditionsMet: 1
+  OffsetCellMode: 0
+  OffsetCell: {x: 0, y: 0, z: 0}
+  DistanceMustBe: 1
+  IgnoreSelf: 1
+  DistanceToTagged: Mushroom
+  CheckMode: 3
+  Distance: 1
+  MeasureIn: 1
+  DistanceMulVariable:
+    name: 
+    requiredType: 1
+    Tooltip: 
